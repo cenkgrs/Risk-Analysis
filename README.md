@@ -28,5 +28,9 @@ php artisan migrate
 # Tabloları Doldur
 php artisan db:seed
 
+# Admin Kullanıcı Bilgileri
+cenk@example.com
+123456
+
 # Proje çalıştır
 php artisan serve
