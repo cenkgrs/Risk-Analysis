@@ -1571,7 +1571,7 @@
                                     <div class="form-group">
                                         <label for="document1">Risk Analizi Başvuru Formu <span>*</span></label>
                                         <div class="custom-file-input">
-                                            <input type="file" name="document1" id="document1" required>
+                                            <input type="file" name="document1" id="document1">
                                             <span class="file-label">Dosya seçin...</span>
                                             <button type="button" class="btn-file">Gözat</button>
                                         </div>
@@ -1584,7 +1584,7 @@
                                     <div class="form-group">
                                         <label for="document1">Belge 2 <span>*</span></label>
                                         <div class="custom-file-input">
-                                            <input type="file" name="document2" id="document2" required>
+                                            <input type="file" name="document2" id="document2">
                                             <span class="file-label">Dosya seçin...</span>
                                             <button type="button" class="btn-file">Gözat</button>
                                         </div>
@@ -1597,7 +1597,7 @@
                                     <div class="form-group">
                                         <label for="document1">Belge 3 <span>*</span></label>
                                         <div class="custom-file-input">
-                                            <input type="file" name="document3" id="document3" required>
+                                            <input type="file" name="document3" id="document3">
                                             <span class="file-label">Dosya seçin...</span>
                                             <button type="button" class="btn-file">Gözat</button>
                                         </div>

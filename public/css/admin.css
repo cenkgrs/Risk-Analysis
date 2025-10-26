@@ -1,0 +1,110 @@
+.admin-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    min-width: 240px;
+    max-width: 240px;
+}
+
+.sidebar .nav-link {
+    color: #fff;
+}
+
+.sidebar .nav-link.active {
+    background-color: #0b5ed7;
+}
+
+.sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.content {
+    padding: 30px !important;
+}
+
+.offcanvas-body {
+    padding-top: 0;
+}
+
+.main-content {
+    flex: 1;
+    padding: 30px;
+    background: #f4f4f4;
+}
+
+.tabs {
+    margin-bottom: 20px;
+}
+
+.tablink {
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 10px 20px;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 6px 6px 0 0;
+    font-weight: 600;
+}
+
+.tablink.active {
+    background: #003366;
+    color: #fff;
+}
+
+.applications-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.applications-table th,
+.applications-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.applications-table th {
+    background: #003366;
+    color: #fff;
+}
+
+.preview-btn {
+    background: #ffcc00;
+    color: #003366;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.preview-btn:hover {
+    background: #ffd633;
+}
+
+/* Modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 3000;
+    padding-top: 60px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.modal-content {
+    background-color: #fff;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+}

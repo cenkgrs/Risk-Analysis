@@ -25,5 +25,8 @@ DB_PASSWORD=PASSWORD
 # Tabloları yükle
 php artisan migrate
 
+# Tabloları Doldur
+php artisan db:seed
+
 # Proje çalıştır
 php artisan serve
