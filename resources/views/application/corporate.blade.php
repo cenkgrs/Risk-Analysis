@@ -108,7 +108,7 @@
                             n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
+                            );
                     case "emoji":
                         return !a(e, "\ud83e\udedf")
                 }
@@ -1500,7 +1500,151 @@
             <div class="gridContainer content">
                 <div id="post-135" class="post-135 page type-page status-publish hentry">
                     <div>
+
+                        <!-- Success Message -->
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
                         <p>Kurumsal Başvuru</p>
+
+                        <form action="{{ route('corporate.post') }}" method="POST" enctype="multipart/form-data"
+                            class="application-form">
+                            @csrf
+
+
+                            <div class="row">
+
+                                <!-- Kişisel Bilgiler -->
+                                <div class="form-grid">
+                                    <div class="form-group">
+                                        <label for="name">Ad Soyad <span>*</span></label>
+                                        <input type="text" name="name" id="name"
+                                            value="{{ old('name') }}" required>
+                                        @error('name')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="email">E-posta <span>*</span></label>
+                                        <input type="email" name="email" id="email"
+                                            value="{{ old('email') }}" required>
+                                        @error('email')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="company">Şirket Adı</label>
+                                        <input type="text" name="company" id="company"
+                                            value="{{ old('company') }}">
+                                        @error('company')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label for="phone">Telefon <span>*</span></label>
+                                        <input type="tel" name="phone" id="phone"
+                                            value="{{ old('phone') }}" required>
+                                        @error('phone')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="document1">Risk Analizi Başvuru Formu <span>*</span></label>
+                                        <div class="custom-file-input">
+                                            <input type="file" name="document1" id="document1">
+                                            <span class="file-label">Dosya seçin...</span>
+                                            <button type="button" class="btn-file">Gözat</button>
+                                        </div>
+                                        @error('document1')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="document1">Belge 2 <span>*</span></label>
+                                        <div class="custom-file-input">
+                                            <input type="file" name="document2" id="document2">
+                                            <span class="file-label">Dosya seçin...</span>
+                                            <button type="button" class="btn-file">Gözat</button>
+                                        </div>
+                                        @error('document1')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="document1">Belge 3 <span>*</span></label>
+                                        <div class="custom-file-input">
+                                            <input type="file" name="document3" id="document3">
+                                            <span class="file-label">Dosya seçin...</span>
+                                            <button type="button" class="btn-file">Gözat</button>
+                                        </div>
+                                        @error('document1')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sözleşme Onayı -->
+                            <div class="form-group checkbox full-width">
+                                <label>
+                                    <input type="checkbox" name="agreement" required>
+                                    <span>Sözleşmeyi okudum ve kabul ediyorum. <a href="#"
+                                            id="showAgreement">Detaylı sözleşmeyi görüntüle</a></span>
+                                </label>
+                                @error('agreement')
+                                    <span class="error">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Başvuruyu Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="agreementModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2>RİSK DEĞERLENDİRME SÖZLEŞMESİ</h2>
+                            <div class="modal-body">
+                                <p>(Şirketimiz yatırımcı değildir; yatırım kararlarını verecek olan taraflar adına
+                                    değerlendirme hizmeti sunmaktadır.)</p>
+                                <h3>1. Sorumluluk ve Bilgilendirme:</h3>
+                                <p>Yatırım talebinde bulunan taraflar, tarafımıza sunacakları bilgilerde eksiksiz, doğru
+                                    ve dürüst davranmayı kabul eder...</p>
+                                <h3>2. Kimlik Doğrulama ve Finansal Değerlendirme Süreci:</h3>
+                                <p>Başvuru sahipleri, kimliklerini belirlenmiş dijital uygulamalar aracılığıyla
+                                    doğrulamakla yükümlüdür...</p>
+                                <h3>3. Risk Analizi Raporu:</h3>
+                                <p>Hazırlanacak risk analizi raporu, sadece yatırımcılar adına rehberlik sağlamak
+                                    amacıyla düzenlenecektir...</p>
+                                <h3>4. Ücret ve İade Politikası:</h3>
+                                <p>Risk analizi hizmeti, yatırım tutarının %2’si + KDV olacak şekilde ücretlendirilir...
+                                </p>
+                                <h3>5. Yasal Uygulamalar ve Yargı Yetkisi:</h3>
+                                <p>Taraflar arasında doğabilecek tüm uyuşmazlıklarda İngiltere mahkemeleri ve yatırım
+                                    alacak kişinin bulunduğu ülkenin mahkemeleri yetkilidir...</p>
+                                <h3>6. Gizlilik ve Bilgi Paylaşımı:</h3>
+                                <p>Başvuru sahipleri ile paylaşılacak raporlar, yalnızca yatırımcının bilgisi ve onayı
+                                    dahilinde kullanılabilir...</p>
+                                <h3>7. Tarafsızlık İlkesi:</h3>
+                                <p>Şirketimiz yalnızca tarafsız değerlendirme hizmeti sunar...</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -1508,6 +1652,40 @@
 
         @include('partials.footer')
     </div>
+
+    <script>
+        document.querySelectorAll('.custom-file-input input[type="file"]').forEach(input => {
+            const label = input.nextElementSibling; // .file-label
+            input.addEventListener('change', e => {
+                if (input.files.length > 0) {
+                    label.textContent = input.files[0].name;
+                } else {
+                    label.textContent = "Dosya seçin...";
+                }
+            });
+        });
+
+        // Modal aç/kapa
+        var modal = document.getElementById("agreementModal");
+        var btn = document.getElementById("showAgreement");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function(e) {
+            e.preventDefault();
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
     <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/mesmerize-pro\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>

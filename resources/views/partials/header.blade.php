@@ -27,7 +27,7 @@
                                 <a href="/">Anasayfa</a>
                             </li>
                             <li id="menu-item-150"
-                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item menu-item-150">
+                                class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-135 menu-item-150">
                                 <a href="{{ route('dealer.get') }}" aria-current="page">Bireysel
                                     Başvuru</a>
                             </li>
@@ -74,7 +74,7 @@
                                     <a href="/">Anasayfa</a>
                                 </li>
                                 <li
-                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item menu-item-150">
+                                    class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 menu-item-150">
                                     <a href="{{ route('dealer.get') }}"
                                         aria-current="page">Kurumsal Başvuru</a>
                                 </li>
