@@ -19,10 +19,15 @@ class DocumentController extends Controller
         $input = $request->all();
 
         // Validation
-        $request->validate([
-            'document1' => 'file|mimes:pdf,jpg,jpeg,png|max:2048',
-            'document2' => 'file|mimes:pdf,jpg,jpeg,png|max:2048',
-            'document3' => 'file|mimes:pdf,jpg,jpeg,png|max:2048',
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'company' => 'company',
+            'agreement' => 'required',
+            'document1' => 'file|mimes:pdf,docx|max:2048',
+            'document2' => 'file|mimes:pdf,docx|max:2048',
+            'document3' => 'file|mimes:pdf,docx|max:2048',
         ]);
 
         $application = Applications::create([
@@ -64,10 +69,15 @@ class DocumentController extends Controller
         $input = $request->all();
 
         // Validation
-        $request->validate([
-            'document1' => 'required|file|mimes:pdf,jpg,jpeg,png|max:2048',
-            'document2' => 'required|file|mimes:pdf,jpg,jpeg,png|max:2048',
-            'document3' => 'required|file|mimes:pdf,jpg,jpeg,png|max:2048',
+        $validated = $request->validate([
+            'name' => 'required|string|max:255',
+            'email' => 'required|email',
+            'phone' => 'required',
+            'company' => 'company',
+            'agreement' => 'required',
+            'document1' => 'file|mimes:pdf,docx|max:2048',
+            'document2' => 'file|mimes:pdf,docx|max:2048',
+            'document3' => 'file|mimes:pdf,docx|max:2048',
         ]);
 
         $application = Applications::create([

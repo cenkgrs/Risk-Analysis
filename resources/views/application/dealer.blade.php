@@ -1519,6 +1519,18 @@
                             </div>
                         @endif
 
+                        <!-- Genel validation hataları (liste halinde) -->
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <strong>Hata:</strong>
+                                <ul class="mb-0">
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+
                         <p>Bireysel Başvuru</p>
 
                         <form action="{{ route('dealer.post') }}" method="POST" enctype="multipart/form-data"
@@ -1588,7 +1600,7 @@
                                             <span class="file-label">Dosya seçin...</span>
                                             <button type="button" class="btn-file">Gözat</button>
                                         </div>
-                                        @error('document1')
+                                        @error('document2')
                                             <span class="error">{{ $message }}</span>
                                         @enderror
                                     </div>
@@ -1601,7 +1613,7 @@
                                             <span class="file-label">Dosya seçin...</span>
                                             <button type="button" class="btn-file">Gözat</button>
                                         </div>
-                                        @error('document1')
+                                        @error('document3')
                                             <span class="error">{{ $message }}</span>
                                         @enderror
                                     </div>
