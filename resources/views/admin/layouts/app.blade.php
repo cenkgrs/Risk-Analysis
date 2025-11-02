@@ -40,7 +40,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.applications.check') }}" class="nav-link">
+                    <a href="{{ route('admin.applications.risk') }}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
                             Risk Değerlendirme

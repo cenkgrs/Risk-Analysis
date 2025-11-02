@@ -49,6 +49,9 @@ Route::prefix('admin')->group(function () {
     Route::get('basvurular/cek-analizi', [App\Http\Controllers\Admin\ApplicationController::class, 'check'])->name('admin.applications.check');
     Route::get('basvurular/kredi-analizi', [App\Http\Controllers\Admin\ApplicationController::class, 'credit'])->name('admin.applications.credit');
     Route::get('basvurular/kredi-analizi/{id}', [App\Http\Controllers\Admin\ApplicationController::class, 'creditDetail'])->name('admin.applications.credit.detail');
+    Route::get('basvurular/risk-degerlendirme', [App\Http\Controllers\Admin\ApplicationController::class, 'risk'])->name('admin.applications.risk');
+    Route::get('basvurular/risk-degerlendirme/{id}', [App\Http\Controllers\Admin\ApplicationController::class, 'riskDetail'])->name('admin.applications.risk.detail');
+
     Route::get('applications/bireysel', [App\Http\Controllers\Admin\ApplicationController::class, 'bireysel'])->name('admin.applications.bireysel');
     Route::get('applications/kurumsal', [App\Http\Controllers\Admin\ApplicationController::class, 'kurumsal'])->name('admin.applications.kurumsal');
 });

@@ -1960,7 +1960,7 @@
                                 </div>
 
 
-                                <h3>İlgili Olduğu Endüstrilerdeki Konumu ve Rekabet Avanyajı</h3>
+                                <h3>İlgili Olduğu Endüstrilerdeki Konumu ve Rekabet Avantajı</h3>
 
                                 <div class="row">
                                     <div class="col-lg-12">

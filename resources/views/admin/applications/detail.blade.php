@@ -20,8 +20,8 @@
             <table class="table table-striped ">
                 <thead>
                     <tr>
-                        <th>T.C Kimlik No</th>
                         <th>İsim Soyisim</th>
+                        <th>T.C Kimlik No</th>
                     </tr>
                 </thead>
                 <tbody>

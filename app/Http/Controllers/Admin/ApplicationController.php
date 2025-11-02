@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Applications;
 use App\Models\CheckAnalysis;
 use App\Models\CreditAnalysis;
+use App\Models\RiskAnalysis;
 use App\Models\Documents;
 
 class ApplicationController extends Controller
@@ -37,6 +38,24 @@ class ApplicationController extends Controller
         $shareholders = json_decode($application->company_shareholders, true);
 
         return view('admin.applications.detail', compact('application', 'shareholders'))->with('type', 'Kredi Analizi Başvurusu - ' . $application['company']);
+    }
+
+    public function risk()
+    {
+        $applications = RiskAnalysis::orderBy('created_at', 'desc')->get();
+
+        return view('admin.applications.risk', compact('applications'))->with('type', 'Risk Değerlendirme Başvuruları');
+    }
+
+    public function riskDetail($id)
+    {
+        $application = RiskAnalysis::where('id', $id)->orderBy('created_at', 'desc')->first();
+
+        $shareholders = json_decode($application->company_shareholders, true);
+
+        $boardMembers = json_decode($application->company_board, true);
+
+        return view('admin.applications.risk_detail', compact('application', 'shareholders', 'boardMembers'))->with('type', 'Risk Değerlendirme Başvurusu - ' . $application['company']);
     }
     
     public function bireysel()
@@ -77,6 +96,8 @@ class ApplicationController extends Controller
             $app = CheckAnalysis::findOrFail($id);
         } else if ($type == 'credit') {
             $app = CreditAnalysis::findOrFail($id);
+        } else if ($type == 'risk') {
+            $app = RiskAnalysis::findOrFail($id);
         }
 
         $status = $request->input('status');

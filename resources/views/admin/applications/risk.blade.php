@@ -50,13 +50,13 @@
                         </td>
 
                         <td>
-                            <a href="{{ route('admin.applications.credit.detail', $app->id) }}" class="btn btn-info btn-sm">
+                            <a href="{{ route('admin.applications.risk.detail', $app->id) }}" class="btn btn-info btn-sm">
                                 Detaylar
                             </a>
                             <form action="{{ route('admin.applications.status', $app->id) }}" method="POST"
                                 class="d-inline">
                                 @csrf
-                                <input type="hidden" name="type" value="credit">
+                                <input type="hidden" name="type" value="risk">
                                 <input type="hidden" name="status" value="approved">
                                 <button class="btn btn-success btn-sm"
                                     {{ $app->status == 'approved' ? 'disabled' : '' }}>Onayla</button>
@@ -65,7 +65,7 @@
                             <form action="{{ route('admin.applications.status', $app->id) }}" method="POST"
                                 class="d-inline">
                                 @csrf
-                                <input type="hidden" name="type" value="credit">
+                                <input type="hidden" name="type" value="risk">
                                 <input type="hidden" name="status" value="rejected">
                                 <button class="btn btn-danger btn-sm"
                                     {{ $app->status == 'rejected' ? 'disabled' : '' }}>Reddet</button>
