@@ -3,6 +3,7 @@
 use App\Http\Controllers\Admin\AuthController;
 use App\Http\Controllers\CheckController;
 use App\Http\Controllers\CreditController;
+use App\Http\Controllers\RiskController;
 use App\Http\Controllers\DocumentController;
 use Illuminate\Support\Facades\Route;
 
@@ -19,14 +20,11 @@ Route::post('kurumsal-basvuru', [DocumentController::class, 'postCorporate'])->n
 Route::get('cek-analizi', [CheckController::class, 'getCheck'])->name('check.get');
 Route::post('cek-analizi', [CheckController::class, 'postCheck'])->name('check.post');
 
-Route::get('bireysel-kredi-basvuru', [CreditController::class, 'getPersonalCredit'])->name('credit.personal.get');
-Route::post('bireysel-kredi-basvuru', [CreditController::class, 'postPersonalCredit'])->name('credit.personal.post');
+Route::get('kredi-basvuru-analizi', [CreditController::class, 'getPersonalCredit'])->name('credit.personal.get');
+Route::post('kredi-basvuru-analizi', [CreditController::class, 'postPersonalCredit'])->name('credit.personal.post');
 
-Route::get('kurumsal-kredi-basvuru', [DocumentController::class, 'getCorporateCredit'])->name('credit.corporate.get');
-Route::post('kurumsal-kredi-basvuru', [DocumentController::class, 'postCorporateCredit'])->name('credit.corporate.post');
-
-Route::get('risk-analizi', [DocumentController::class, 'getRiskAnalysis'])->name('risk.get');
-Route::post('risk-analizi', [DocumentController::class, 'postRiskAnalysis'])->name('risk.post');
+Route::get('risk-analizi', [RiskController::class, 'getRiskAnalysis'])->name('risk.get');
+Route::post('risk-analizi', [RiskController::class, 'postRiskAnalysis'])->name('risk.post');
 
 
 

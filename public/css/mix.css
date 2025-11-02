@@ -176,3 +176,8 @@
     background-color: #404040e3;
     border-color: #404040e3;
 }
+
+form h3 {
+    color: #bb0f0f;
+    margin-top: 1rem;
+}
