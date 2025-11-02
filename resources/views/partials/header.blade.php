@@ -6,12 +6,12 @@
         <div class="navigation-wrapper white-logo fixed-dark-logo">
             <div class="row basis-auto">
                 <div class="logo_col col-xs col-sm-fit">
-                    <a href="https://www.riskanaliz.com.tr/" class="logo-link dark" rel="home" itemprop="url"
+                    <a href="/" class="logo-link dark" rel="home" itemprop="url"
                         data-type="group" data-dynamic-mod="true"><img width="1563" height="913"
                             src="https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk.png"
                             class="logo dark" alt="" itemprop="logo" decoding="async" fetchpriority="high"
                             srcset="https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk.png 1563w, https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk-300x175.png 300w, https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk-1024x598.png 1024w, https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk-768x449.png 768w, https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/siyahrisk-1536x897.png 1536w"
-                            sizes="(max-width: 1563px) 100vw, 1563px" /></a><a href="https://www.riskanaliz.com.tr/"
+                            sizes="(max-width: 1563px) 100vw, 1563px" /></a><a href="/"
                         class="custom-logo-link" data-type="group" data-dynamic-mod="true" rel="home"><img
                             width="1563" height="913"
                             src="https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/risk-.png" class="custom-logo"
@@ -26,22 +26,20 @@
                                 class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-149">
                                 <a href="/">Anasayfa</a>
                             </li>
+
                             <li id="menu-item-150"
                                 class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-135 menu-item-150">
-                                <a href="{{ route('dealer.get') }}" aria-current="page">Bireysel
-                                    Başvuru</a>
+                                <a href="{{ route('check.get') }}">Çek Analizi</a>
                             </li>
-                            <li id="menu-item-153"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153"><a
-                                    href="{{ route('corporate.get') }}">Kurumsal Başvuru</a>
+                            <li id="menu-item-150"
+                                class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-135 menu-item-150">
+                                <a href="{{ route('credit.personal.get') }}">Kredi Risk Analizi</a>
                             </li>
-                            <li id="menu-item-152"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152"><a
-                                    href="/">İstenilen Evraklar</a>
+                            <li id="menu-item-150"
+                                class="menu-item menu-item-type-post_type menu-item-object-page page_item page-item-135 menu-item-150">
+                                <a href="{{ route('risk.get') }}" aria-current="page">Risk Değerlendirme</a>
                             </li>
-                            <li id="menu-item-151"
-                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151"><a
-                                    href="/">İletişim</a></li>
+                           
                         </ul>
                     </div> <a href="#" data-component="offcanvas" data-target="#offcanvas-wrapper"
                         data-direction="right" data-width="300px" data-push="false">
@@ -75,18 +73,13 @@
                                 </li>
                                 <li
                                     class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 menu-item-150">
-                                    <a href="{{ route('dealer.get') }}"
-                                        aria-current="page">Kurumsal Başvuru</a>
+                                    <a href="{{ route('check.get') }}">Çek Analizi</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-153">
-                                    <a href="{{ route('corporate.get') }}">Kurumsal Başvuru</a>
+                                    <a href="{{ route('credit.personal.get') }}">Kredi Risk Analizi</a>
                                 </li>
                                 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-152">
-                                    <a href="/">İstenilen
-                                        Evraklar</a>
-                                </li>
-                                <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-151">
-                                    <a href="/">İletişim</a>
+                                    <a href="{{ route('risk.get') }}" aria-current="page">Risk Değerlendirme</a>
                                 </li>
                             </ul>
                         </div>
@@ -100,3 +93,5 @@
         </div>
     </div>
 </div>
+
+<script src="{{ asset('js/app.js') }}"></script>

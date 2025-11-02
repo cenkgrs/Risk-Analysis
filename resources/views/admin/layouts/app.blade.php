@@ -6,7 +6,7 @@
 <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="/admin/dashboard" class="brand-link">
-        <span class="brand-text font-weight-light">Risk Analiz</span>
+        <img src="https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/risk-.png" alt="" >
     </a>
 
     <!-- Sidebar -->
@@ -19,10 +19,10 @@
                 <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
                 <li class="nav-item">
-                    <a href="{{ route('admin.applications.bireysel') }}" class="nav-link">
+                    <a href="{{ route('admin.applications.check') }}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Bireysel Başvurular
+                            Çek Analizi Başvuruları
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
@@ -30,20 +30,29 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="{{ route('admin.applications.kurumsal') }}" class="nav-link">
+                    <a href="{{ route('admin.applications.credit') }}" class="nav-link">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                            Kurumsal Başvurular
+                            Kredi Analizi
                             <i class="right fas fa-angle-left"></i>
                         </p>
                     </a>
-
                 </li>
 
                 <li class="nav-item">
-                    <form action="{{ route('admin.logout') }}" method="POST" class="mt-3">
+                    <a href="{{ route('admin.applications.check') }}" class="nav-link">
+                        <i class="nav-icon fas fa-tachometer-alt"></i>
+                        <p>
+                            Risk Değerlendirme
+                            <i class="right fas fa-angle-left"></i>
+                        </p>
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <form action="{{ route('admin.logout') }}" method="POST">
                         @csrf
-                        <button class="btn btn-danger w-100"><i class="bi bi-box-arrow-right me-2"></i> Çıkış
+                        <button class="nav-link"><i class="bi bi-box-arrow-right me-2"></i> Çıkış
                             Yap</button>
                     </form>
 

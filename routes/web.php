@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\Admin\AuthController;
+use App\Http\Controllers\CheckController;
+use App\Http\Controllers\CreditController;
 use App\Http\Controllers\DocumentController;
 use Illuminate\Support\Facades\Route;
 
@@ -13,6 +15,20 @@ Route::post('bireysel-basvuru', [DocumentController::class, 'postDealer'])->name
 
 Route::get('kurumsal-basvuru', [DocumentController::class, 'getCorporate'])->name('corporate.get');
 Route::post('kurumsal-basvuru', [DocumentController::class, 'postCorporate'])->name('corporate.post');
+
+Route::get('cek-analizi', [CheckController::class, 'getCheck'])->name('check.get');
+Route::post('cek-analizi', [CheckController::class, 'postCheck'])->name('check.post');
+
+Route::get('bireysel-kredi-basvuru', [CreditController::class, 'getPersonalCredit'])->name('credit.personal.get');
+Route::post('bireysel-kredi-basvuru', [CreditController::class, 'postPersonalCredit'])->name('credit.personal.post');
+
+Route::get('kurumsal-kredi-basvuru', [DocumentController::class, 'getCorporateCredit'])->name('credit.corporate.get');
+Route::post('kurumsal-kredi-basvuru', [DocumentController::class, 'postCorporateCredit'])->name('credit.corporate.post');
+
+Route::get('risk-analizi', [DocumentController::class, 'getRiskAnalysis'])->name('risk.get');
+Route::post('risk-analizi', [DocumentController::class, 'postRiskAnalysis'])->name('risk.post');
+
+
 
 // Admin login routes
 Route::prefix('admin')->group(function () {
@@ -32,6 +48,9 @@ Route::prefix('admin')->group(function () {
     Route::post('logout', [AuthController::class, 'logout'])->name('admin.logout');
 
     Route::get('dashboard', [App\Http\Controllers\Admin\ApplicationController::class, 'index'])->name('admin.dashboard');
+    Route::get('basvurular/cek-analizi', [App\Http\Controllers\Admin\ApplicationController::class, 'check'])->name('admin.applications.check');
+    Route::get('basvurular/kredi-analizi', [App\Http\Controllers\Admin\ApplicationController::class, 'credit'])->name('admin.applications.credit');
+    Route::get('basvurular/kredi-analizi/{id}', [App\Http\Controllers\Admin\ApplicationController::class, 'creditDetail'])->name('admin.applications.credit.detail');
     Route::get('applications/bireysel', [App\Http\Controllers\Admin\ApplicationController::class, 'bireysel'])->name('admin.applications.bireysel');
     Route::get('applications/kurumsal', [App\Http\Controllers\Admin\ApplicationController::class, 'kurumsal'])->name('admin.applications.kurumsal');
 });

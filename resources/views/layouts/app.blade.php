@@ -22,6 +22,15 @@
             <nav class="nav-links">
                 <a href="{{ url('/') }}">Ana Sayfa</a>
                 <a href="{{ url('/hakkimizda') }}">Hakkımızda</a>
+
+                <!-- Check -->
+                <a href="{{ route('check.get') }}">Çek Analizi</a>
+
+                <!-- Kredi -->
+                <a href="{{ route('credit.get') }}">Bireysel Kredi Risk Analizi</a>
+                <a href="{{ route('credit.get') }}">Kurumsal Kredi Risk Analizi</a>
+
+                
                 <a href="{{ route('dealer.get') }}">Bireysel Başvuru</a>
                 <a href="{{ url('/iletisim') }}">İletişim</a>
             </nav>

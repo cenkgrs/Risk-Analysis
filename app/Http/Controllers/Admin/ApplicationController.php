@@ -5,6 +5,8 @@ namespace App\Http\Controllers\Admin;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Applications;
+use App\Models\CheckAnalysis;
+use App\Models\CreditAnalysis;
 use App\Models\Documents;
 
 class ApplicationController extends Controller
@@ -12,6 +14,29 @@ class ApplicationController extends Controller
     public function index()
     {
         return view('admin.dashboard')->with('type', 'Admin Panel');
+    }
+
+    public function check()
+    {
+        $applications = CheckAnalysis::orderBy('created_at', 'desc')->get();
+
+        return view('admin.applications.check', compact('applications'))->with('type', 'Çek Analizi Başvuruları');
+    }
+
+    public function credit()
+    {
+        $applications = CreditAnalysis::orderBy('created_at', 'desc')->get();
+
+        return view('admin.applications.credit', compact('applications'))->with('type', 'Kredi Analizi Başvuruları');
+    }
+
+    public function creditDetail($id)
+    {
+        $application = CreditAnalysis::where('id', $id)->orderBy('created_at', 'desc')->first();
+
+        $shareholders = json_decode($application->company_shareholders, true);
+
+        return view('admin.applications.detail', compact('application', 'shareholders'))->with('type', 'Kredi Analizi Başvurusu - ' . $application['company']);
     }
     
     public function bireysel()
@@ -46,7 +71,14 @@ class ApplicationController extends Controller
 
     public function updateStatus(Request $request, $id)
     {
-        $app = Applications::findOrFail($id);
+        $type = $request->input('type');
+
+        if ($type == 'check') {
+            $app = CheckAnalysis::findOrFail($id);
+        } else if ($type == 'credit') {
+            $app = CreditAnalysis::findOrFail($id);
+        }
+
         $status = $request->input('status');
 
         if (!in_array($status, ['approved', 'rejected'])) {

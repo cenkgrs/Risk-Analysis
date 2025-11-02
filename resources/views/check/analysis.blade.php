@@ -50,8 +50,7 @@
             exports.mesmerizeDomReady = domReady;
         })(window, document);
     </script>
-    <title>RISK ANALIZ / RISK ANALYSIS /تحليل المخاطر &#8211; RISK ANALIZ &#8211; RISK YENI FIRSATLARIN KAPISINI ARALAR
-        !</title>
+    <title>Çek Analizi &#8211; RISK ANALIZ / RISK ANALYSIS /تحليل المخاطر</title>
     <meta name='robots' content='max-image-preview:large' />
     <style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
     <link rel='dns-prefetch' href='//fonts.googleapis.com' />
@@ -109,7 +108,7 @@
                             n(e, "\ud83c\udde8\ud83c\uddf6", "\ud83c\udde8\u200b\ud83c\uddf6") && !n(e,
                                 "\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f",
                                 "\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f"
-                                );
+                            );
                     case "emoji":
                         return !a(e, "\ud83e\udedf")
                 }
@@ -185,13 +184,366 @@
         }((window, document), window._wpemojiSettings);
         /* ]]> */
     </script>
-    <link rel='stylesheet' id='companion-bundle-css' href=""
-        data-href='https://www.riskanaliz.com.tr/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/css/companion.bundle.min.css?ver=1.6.157'
-        type='text/css' media='all' />
+    <style id='wp-emoji-styles-inline-css' type='text/css'>
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 0.07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
     <link rel='stylesheet' id='wp-block-library-css'
         href='https://www.riskanaliz.com.tr/wp-includes/css/dist/block-library/style.min.css?ver=6.8.3' type='text/css'
         media='all' />
-    
+    <style id='classic-theme-styles-inline-css' type='text/css'>
+        /*! This file is auto-generated */
+        .wp-block-button__link {
+            color: #fff;
+            background-color: #32373c;
+            border-radius: 9999px;
+            box-shadow: none;
+            text-decoration: none;
+            padding: calc(.667em + 2px) calc(1.333em + 2px);
+            font-size: 1.125em
+        }
+
+        .wp-block-file__button {
+            background: #32373c;
+            color: #fff;
+            text-decoration: none
+        }
+    </style>
+    <style id='global-styles-inline-css' type='text/css'>
+        :root {
+            --wp--preset--aspect-ratio--square: 1;
+            --wp--preset--aspect-ratio--4-3: 4/3;
+            --wp--preset--aspect-ratio--3-4: 3/4;
+            --wp--preset--aspect-ratio--3-2: 3/2;
+            --wp--preset--aspect-ratio--2-3: 2/3;
+            --wp--preset--aspect-ratio--16-9: 16/9;
+            --wp--preset--aspect-ratio--9-16: 9/16;
+            --wp--preset--color--black: #000000;
+            --wp--preset--color--cyan-bluish-gray: #abb8c3;
+            --wp--preset--color--white: #ffffff;
+            --wp--preset--color--pale-pink: #f78da7;
+            --wp--preset--color--vivid-red: #cf2e2e;
+            --wp--preset--color--luminous-vivid-orange: #ff6900;
+            --wp--preset--color--luminous-vivid-amber: #fcb900;
+            --wp--preset--color--light-green-cyan: #7bdcb5;
+            --wp--preset--color--vivid-green-cyan: #00d084;
+            --wp--preset--color--pale-cyan-blue: #8ed1fc;
+            --wp--preset--color--vivid-cyan-blue: #0693e3;
+            --wp--preset--color--vivid-purple: #9b51e0;
+            --wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg, rgba(6, 147, 227, 1) 0%, rgb(155, 81, 224) 100%);
+            --wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg, rgb(122, 220, 180) 0%, rgb(0, 208, 130) 100%);
+            --wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg, rgba(252, 185, 0, 1) 0%, rgba(255, 105, 0, 1) 100%);
+            --wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg, rgba(255, 105, 0, 1) 0%, rgb(207, 46, 46) 100%);
+            --wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg, rgb(238, 238, 238) 0%, rgb(169, 184, 195) 100%);
+            --wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg, rgb(74, 234, 220) 0%, rgb(151, 120, 209) 20%, rgb(207, 42, 186) 40%, rgb(238, 44, 130) 60%, rgb(251, 105, 98) 80%, rgb(254, 248, 76) 100%);
+            --wp--preset--gradient--blush-light-purple: linear-gradient(135deg, rgb(255, 206, 236) 0%, rgb(152, 150, 240) 100%);
+            --wp--preset--gradient--blush-bordeaux: linear-gradient(135deg, rgb(254, 205, 165) 0%, rgb(254, 45, 45) 50%, rgb(107, 0, 62) 100%);
+            --wp--preset--gradient--luminous-dusk: linear-gradient(135deg, rgb(255, 203, 112) 0%, rgb(199, 81, 192) 50%, rgb(65, 88, 208) 100%);
+            --wp--preset--gradient--pale-ocean: linear-gradient(135deg, rgb(255, 245, 203) 0%, rgb(182, 227, 212) 50%, rgb(51, 167, 181) 100%);
+            --wp--preset--gradient--electric-grass: linear-gradient(135deg, rgb(202, 248, 128) 0%, rgb(113, 206, 126) 100%);
+            --wp--preset--gradient--midnight: linear-gradient(135deg, rgb(2, 3, 129) 0%, rgb(40, 116, 252) 100%);
+            --wp--preset--font-size--small: 13px;
+            --wp--preset--font-size--medium: 20px;
+            --wp--preset--font-size--large: 36px;
+            --wp--preset--font-size--x-large: 42px;
+            --wp--preset--spacing--20: 0.44rem;
+            --wp--preset--spacing--30: 0.67rem;
+            --wp--preset--spacing--40: 1rem;
+            --wp--preset--spacing--50: 1.5rem;
+            --wp--preset--spacing--60: 2.25rem;
+            --wp--preset--spacing--70: 3.38rem;
+            --wp--preset--spacing--80: 5.06rem;
+            --wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);
+            --wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);
+            --wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);
+            --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
+        }
+
+        :where(.is-layout-flex) {
+            gap: 0.5em;
+        }
+
+        :where(.is-layout-grid) {
+            gap: 0.5em;
+        }
+
+        body .is-layout-flex {
+            display: flex;
+        }
+
+        .is-layout-flex {
+            flex-wrap: wrap;
+            align-items: center;
+        }
+
+        .is-layout-flex> :is(*, div) {
+            margin: 0;
+        }
+
+        body .is-layout-grid {
+            display: grid;
+        }
+
+        .is-layout-grid> :is(*, div) {
+            margin: 0;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        .has-black-color {
+            color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-color {
+            color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-color {
+            color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-color {
+            color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-color {
+            color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-color {
+            color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-color {
+            color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-color {
+            color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-color {
+            color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-color {
+            color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-color {
+            color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-color {
+            color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-background-color {
+            background-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-background-color {
+            background-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-background-color {
+            background-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-background-color {
+            background-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-background-color {
+            background-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-background-color {
+            background-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-background-color {
+            background-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-background-color {
+            background-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-background-color {
+            background-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-background-color {
+            background-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-black-border-color {
+            border-color: var(--wp--preset--color--black) !important;
+        }
+
+        .has-cyan-bluish-gray-border-color {
+            border-color: var(--wp--preset--color--cyan-bluish-gray) !important;
+        }
+
+        .has-white-border-color {
+            border-color: var(--wp--preset--color--white) !important;
+        }
+
+        .has-pale-pink-border-color {
+            border-color: var(--wp--preset--color--pale-pink) !important;
+        }
+
+        .has-vivid-red-border-color {
+            border-color: var(--wp--preset--color--vivid-red) !important;
+        }
+
+        .has-luminous-vivid-orange-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-amber-border-color {
+            border-color: var(--wp--preset--color--luminous-vivid-amber) !important;
+        }
+
+        .has-light-green-cyan-border-color {
+            border-color: var(--wp--preset--color--light-green-cyan) !important;
+        }
+
+        .has-vivid-green-cyan-border-color {
+            border-color: var(--wp--preset--color--vivid-green-cyan) !important;
+        }
+
+        .has-pale-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--pale-cyan-blue) !important;
+        }
+
+        .has-vivid-cyan-blue-border-color {
+            border-color: var(--wp--preset--color--vivid-cyan-blue) !important;
+        }
+
+        .has-vivid-purple-border-color {
+            border-color: var(--wp--preset--color--vivid-purple) !important;
+        }
+
+        .has-vivid-cyan-blue-to-vivid-purple-gradient-background {
+            background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;
+        }
+
+        .has-light-green-cyan-to-vivid-green-cyan-gradient-background {
+            background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;
+        }
+
+        .has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;
+        }
+
+        .has-luminous-vivid-orange-to-vivid-red-gradient-background {
+            background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;
+        }
+
+        .has-very-light-gray-to-cyan-bluish-gray-gradient-background {
+            background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;
+        }
+
+        .has-cool-to-warm-spectrum-gradient-background {
+            background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;
+        }
+
+        .has-blush-light-purple-gradient-background {
+            background: var(--wp--preset--gradient--blush-light-purple) !important;
+        }
+
+        .has-blush-bordeaux-gradient-background {
+            background: var(--wp--preset--gradient--blush-bordeaux) !important;
+        }
+
+        .has-luminous-dusk-gradient-background {
+            background: var(--wp--preset--gradient--luminous-dusk) !important;
+        }
+
+        .has-pale-ocean-gradient-background {
+            background: var(--wp--preset--gradient--pale-ocean) !important;
+        }
+
+        .has-electric-grass-gradient-background {
+            background: var(--wp--preset--gradient--electric-grass) !important;
+        }
+
+        .has-midnight-gradient-background {
+            background: var(--wp--preset--gradient--midnight) !important;
+        }
+
+        .has-small-font-size {
+            font-size: var(--wp--preset--font-size--small) !important;
+        }
+
+        .has-medium-font-size {
+            font-size: var(--wp--preset--font-size--medium) !important;
+        }
+
+        .has-large-font-size {
+            font-size: var(--wp--preset--font-size--large) !important;
+        }
+
+        .has-x-large-font-size {
+            font-size: var(--wp--preset--font-size--x-large) !important;
+        }
+
+        :where(.wp-block-post-template.is-layout-flex) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-post-template.is-layout-grid) {
+            gap: 1.25em;
+        }
+
+        :where(.wp-block-columns.is-layout-flex) {
+            gap: 2em;
+        }
+
+        :where(.wp-block-columns.is-layout-grid) {
+            gap: 2em;
+        }
+
+        :root :where(.wp-block-pullquote) {
+            font-size: 1.5em;
+            line-height: 1.6;
+        }
+    </style>
     <link rel='stylesheet' id='CNACB_styles-css'
         href='https://www.riskanaliz.com.tr/wp-content/plugins/call-now-and-chat-buttons/css/styles.css?ver=6.8.3'
         type='text/css' media='all' />
@@ -940,28 +1292,16 @@
     </script>
     <link rel="https://api.w.org/" href="https://www.riskanaliz.com.tr/wp-json/" />
     <link rel="alternate" title="JSON" type="application/json"
-        href="https://www.riskanaliz.com.tr/wp-json/wp/v2/pages/98" />
+        href="https://www.riskanaliz.com.tr/wp-json/wp/v2/pages/135" />
     <link rel="EditURI" type="application/rsd+xml" title="RSD"
         href="https://www.riskanaliz.com.tr/xmlrpc.php?rsd" />
     <meta name="generator" content="WordPress 6.8.3" />
-    <link rel="canonical" href="/" />
-    <link rel='shortlink' href='/' />
+    <link rel="canonical" href="{{ route('check.get') }}" />
+    <link rel='shortlink' href='https://www.riskanaliz.com.tr/?p=135' />
     <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed"
-        href="https://www.riskanaliz.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.riskanaliz.com.tr%2F" />
+        href="https://www.riskanaliz.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.riskanaliz.com.tr%2Fbireysel-basvuru%2F" />
     <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed"
-        href="https://www.riskanaliz.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.riskanaliz.com.tr%2F&#038;format=xml" />
-    <style data-name="header-overlap-with">
-        @media screen and (min-width: 768px) {
-            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .header-homepage {
-                padding-bottom: 80px;
-            }
-
-            .mesmerize-front-page.overlap-first-section:not(.mesmerize-front-page-with-slider) .page-content div[data-overlap]:first-of-type>div:not([class*="section-separator"]) {
-                margin-top: -80px;
-            }
-        }
-    </style>
-
+        href="https://www.riskanaliz.com.tr/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.riskanaliz.com.tr%2Fbireysel-basvuru%2F&#038;format=xml" />
     <script type="text/javascript" data-name="async-styles">
         (function() {
             var links = document.querySelectorAll('link[data-href]');
@@ -971,78 +1311,78 @@
             }
         })();
     </script>
-    <style data-prefix="header" data-name="menu-variant-style">
+    <style data-prefix="inner_header" data-name="menu-variant-style">
         /** cached menu style */
-        .mesmerize-front-page ul.dropdown-menu>li {
+        .mesmerize-inner-page ul.dropdown-menu>li {
             color: #fff;
         }
 
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu>li {
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu>li {
             color: #FFFFFF;
         }
 
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>li>a,
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>li>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>li>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>li>a,
         ul.dropdown-menu.default>li>a,
-        .mesmerize-front-page ul.dropdown-menu.default>li>a {
+        .mesmerize-inner-page ul.dropdown-menu.default>li>a {
             border-bottom: 3px solid transparent;
         }
 
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>.current_page_item>a,
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>.current-menu-item>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>.current_page_item>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>.current-menu-item>a,
         ul.dropdown-menu.default>.current_page_item>a,
-        .mesmerize-front-page ul.dropdown-menu.default>.current-menu-item>a {
+        .mesmerize-inner-page ul.dropdown-menu.default>.current-menu-item>a {
             border-bottom-color: #BB0F0F;
         }
 
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item):hover>a,
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item).hover>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item):hover>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item).hover>a,
         ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item):hover>a,
-        .mesmerize-front-page ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item).hover>a {
+        .mesmerize-inner-page ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item).hover>a {
             color: #BB0F0F;
         }
 
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>.current_page_item>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>.current-menu-item>a {
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default>.current_page_item>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default>.current-menu-item>a {
             border-bottom-color: #BB0F0F;
         }
 
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item):hover>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item).hover>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item):hover>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item).hover>a {
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item):hover>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>li:not(.current-menu-item):not(.current_page_item).hover>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item):hover>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.default>li:not(.current-menu-item):not(.current_page_item).hover>a {
             color: #BB0F0F;
         }
 
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>.current_page_item>a,
-        .mesmerize-front-page ul.dropdown-menu.active-line-bottom>.current-menu-item>a {
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>.current_page_item>a,
+        .mesmerize-inner-page ul.dropdown-menu.active-line-bottom>.current-menu-item>a {
             color: #fff;
         }
 
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a,
-        .mesmerize-front-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a {
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current_page_item>a,
+        .mesmerize-inner-page .fixto-fixed ul.dropdown-menu.active-line-bottom>.current-menu-item>a {
             color: #FFFFFF;
         }
 
-        .mesmerize-front-page ul.dropdown-menu ul {
+        .mesmerize-inner-page ul.dropdown-menu ul {
             background-color: #fff;
         }
 
-        .mesmerize-front-page ul.dropdown-menu ul li {
+        .mesmerize-inner-page ul.dropdown-menu ul li {
             color: #6b7c93;
         }
 
-        .mesmerize-front-page ul.dropdown-menu ul li.hover,
-        .mesmerize-front-page ul.dropdown-menu ul li:hover {
+        .mesmerize-inner-page ul.dropdown-menu ul li.hover,
+        .mesmerize-inner-page ul.dropdown-menu ul li:hover {
             background-color: #f8f8f8;
             color: #000;
         }
     </style>
     <style data-name="menu-align">
-        .mesmerize-front-page .main-menu,
-        .mesmerize-front-page .main_menu_col {
+        .mesmerize-inner-page .main-menu,
+        .mesmerize-inner-page .main_menu_col {
             justify-content: flex-end;
         }
     </style>
@@ -1131,7 +1471,7 @@
 </head>
 
 <body
-    class="home wp-singular page-template page-template-page-templates page-template-homepage page-template-page-templateshomepage-php page page-id-98 custom-background wp-custom-logo wp-theme-mesmerize-pro overlap-first-section mesmerize-front-page mesmerize-content-no-padding ">
+    class="wp-singular page-template-default page page-id-135 custom-background wp-custom-logo wp-theme-mesmerize-pro overlap-first-section mesmerize-inner-page">
     <style>
         .screen-reader-text[href="#page-content"]:focus {
             background-color: #f1f1f1;
@@ -1143,64 +1483,217 @@
 
         }
     </style>
-    <a class="skip-link screen-reader-text" href="#page-content">Skip to content</a>
 
     @include('partials.header')
 
     <div id="page" class="site">
-
         <div class="header-wrapper">
-            <div class='header-homepage  color-overlay  header-full-height' style=''>
-
-                <div class="header-description gridContainer content-on-center">
-                    <div class="row header-description-row middle-sm">
-                        <div class="header-content header-content-centered col-md col-xs-12">
-                            <div class="align-holder center">
-                                <h1 class="hero-title"><span
-                                        style="font-weight: 900;color: rgb(187, 15, 15)">Risk</span> Yeni Fırsatların
-                                    Kapısını Aralar!</h1>
-                                <p class="header-subtitle">"Risk Analizi: Güvenli Yarınların Anahtarı."</p>
-                                <div data-dynamic-mod-container class="header-buttons-wrapper"><a
-                                        class="button big color1 square" target="_self"
-                                        href="{{ route('dealer.get') }}">BİREYSEL BAŞVURU</a><a
-                                        class="button big color-white square outline" target="_self"
-                                        href="{{ route('corporate.get') }}">KURUMSAL BAŞVURU</a></div>
-                            </div>
+            <div class='header  color-overlay  custom-mobile-image'
+                style='; background-image:url(&quot;https://www.riskanaliz.com.tr/wp-content/uploads/2025/04/cropped-hiking-1031628_1920-1-1-1.jpg&quot;); background-color:#201F25'>
+                <div class="inner-header-description gridContainer">
+                    <div class="row header-description-row">
+                        <div class="col-xs col-xs-12">
+                            <h1 class="hero-title">
+                                Çek Analizi </h1>
                         </div>
                     </div>
                 </div>
-
                 <script>
                     if (window.mesmerizeSetHeaderTopSpacing) {
                         window.mesmerizeSetHeaderTopSpacing();
                     }
                 </script>
                 <div class='split-header'></div>
-                <div class="header-separator header-separator-bottom header-separator-reverse"><svg
-                        xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" viewBox="0 0 1000 100">
-                        <path id="path2" d="M 1000,0 H 0 v 100 z" class="svg-white-bg" />
-                    </svg>
-                </div>
             </div>
         </div>
 
         <div id='page-content' class="page-content">
-            <div class="content">
+            <div class="gridContainer content">
+                <div id="post-135" class="post-135 page type-page status-publish hentry">
+                    <div>
+
+                        <!-- Success Message -->
+                        @if (session('success'))
+                            <div class="alert alert-success">
+                                {{ session('success') }}
+                            </div>
+                        @endif
+
+                        <!-- Genel validation hataları (liste halinde) -->
+                        @if ($errors->any())
+                            <div class="alert alert-danger">
+                                <strong>Hata:</strong>
+                                <ul class="mb-0">
+                                    @foreach ($errors->all() as $error)
+                                        <li>{{ $error }}</li>
+                                    @endforeach
+                                </ul>
+                            </div>
+                        @endif
+
+                        <form action="{{ route('check.post') }}" method="POST" enctype="multipart/form-data"
+                            class="application-form">
+                            @csrf
+
+                            <div class="row">
+
+                                <!-- Kişisel Bilgiler -->
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="name">Ad Soyad <span>*</span></label>
+                                        <input type="text" name="name" id="name"
+                                            value="{{ old('name') }}" required>
+                                        @error('name')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="email">E-posta <span>*</span></label>
+                                        <input type="email" name="email" id="email"
+                                            value="{{ old('email') }}" required>
+                                        @error('email')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="company">Şirket Adı</label>
+                                        <input type="text" name="company" id="company"
+                                            value="{{ old('company') }}">
+                                        @error('company')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="phone">Telefon <span>*</span></label>
+                                        <input type="tel" name="phone" id="phone"
+                                            value="{{ old('phone') }}" required>
+                                        @error('phone')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-4">
+                                    <div class="form-group">
+                                        <label for="check">Çek <span>*</span></label>
+                                        <div class="custom-file-input">
+                                            <input type="file" name="check" id="check">
+                                            <span class="file-label">Dosya yükleyin...</span>
+                                            <button type="button" class="btn-file">Gözat</button>
+                                        </div>
+                                        @error('check')
+                                            <span class="error">{{ $message }}</span>
+                                        @enderror
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Sözleşme Onayı -->
+                            <div class="form-group checkbox full-width">
+                                <label>
+                                    <input type="checkbox" name="agreement" required>
+                                    <span>Sözleşmeyi okudum ve kabul ediyorum. <a href="#"
+                                            id="showAgreement">Detaylı sözleşmeyi görüntüle</a></span>
+                                </label>
+                                @error('agreement')
+                                    <span class="error">{{ $message }}</span>
+                                @enderror
+                            </div>
+
+                            <div class="form-submit">
+                                <button type="submit" class="btn btn-primary">Başvuruyu Gönder</button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <!-- Modal -->
+                    <div id="agreementModal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <h2>RİSK DEĞERLENDİRME SÖZLEŞMESİ</h2>
+                            <div class="modal-body">
+                                <p>(Şirketimiz yatırımcı değildir; yatırım kararlarını verecek olan taraflar adına
+                                    değerlendirme hizmeti sunmaktadır.)</p>
+                                <h3>1. Sorumluluk ve Bilgilendirme:</h3>
+                                <p>Yatırım talebinde bulunan taraflar, tarafımıza sunacakları bilgilerde eksiksiz, doğru
+                                    ve dürüst davranmayı kabul eder...</p>
+                                <h3>2. Kimlik Doğrulama ve Finansal Değerlendirme Süreci:</h3>
+                                <p>Başvuru sahipleri, kimliklerini belirlenmiş dijital uygulamalar aracılığıyla
+                                    doğrulamakla yükümlüdür...</p>
+                                <h3>3. Risk Analizi Raporu:</h3>
+                                <p>Hazırlanacak risk analizi raporu, sadece yatırımcılar adına rehberlik sağlamak
+                                    amacıyla düzenlenecektir...</p>
+                                <h3>4. Ücret ve İade Politikası:</h3>
+                                <p>Risk analizi hizmeti, yatırım tutarının %2’si + KDV olacak şekilde ücretlendirilir...
+                                </p>
+                                <h3>5. Yasal Uygulamalar ve Yargı Yetkisi:</h3>
+                                <p>Taraflar arasında doğabilecek tüm uyuşmazlıklarda İngiltere mahkemeleri ve yatırım
+                                    alacak kişinin bulunduğu ülkenin mahkemeleri yetkilidir...</p>
+                                <h3>6. Gizlilik ve Bilgi Paylaşımı:</h3>
+                                <p>Başvuru sahipleri ile paylaşılacak raporlar, yalnızca yatırımcının bilgisi ve onayı
+                                    dahilinde kullanılabilir...</p>
+                                <h3>7. Tarafsızlık İlkesi:</h3>
+                                <p>Şirketimiz yalnızca tarafsız değerlendirme hizmeti sunar...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         @include('partials.footer')
-        
+
     </div>
+
+    <script>
+        document.querySelectorAll('.custom-file-input input[type="file"]').forEach(input => {
+            const label = input.nextElementSibling; // .file-label
+            input.addEventListener('change', e => {
+                if (input.files.length > 0) {
+                    label.textContent = input.files[0].name;
+                } else {
+                    label.textContent = "Dosya seçin...";
+                }
+            });
+        });
+
+        // Modal aç/kapa
+        var modal = document.getElementById("agreementModal");
+        var btn = document.getElementById("showAgreement");
+        var span = document.getElementsByClassName("close")[0];
+
+        btn.onclick = function(e) {
+            e.preventDefault();
+            modal.style.display = "block";
+        }
+
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
     <script type="speculationrules">
 {"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/*"},{"not":{"href_matches":["\/wp-*.php","\/wp-admin\/*","\/wp-content\/uploads\/*","\/wp-content\/*","\/wp-content\/plugins\/*","\/wp-content\/themes\/mesmerize-pro\/*","\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
 </script>
     <div class="call-widget-full" style="background-color: #e00000; padding: 10px 15px; font-size: 16px;">
         <a href="tel:+905545656630" class="call-link"><i class="bi-telephone"></i> Hemen Arayın!</a>
     </div>
-    <script type="text/javascript" defer="defer"
-        src="https://www.riskanaliz.com.tr/wp-content/plugins/mesmerize-companion/theme-data/mesmerize/assets/js/companion.bundle.min.js?ver=1.6.157"
-        id="companion-bundle-js"></script>
     <script type="text/javascript"
         src="https://www.riskanaliz.com.tr/wp-includes/js/dist/hooks.min.js?ver=4d63a3d491d11ffd8ac6" id="wp-hooks-js">
     </script>
@@ -1269,15 +1762,6 @@
             "reveal-effect": {
                 "enabled": false
             }
-        };
-        var mesmerize_backstretch = {
-            "images": ["https:\/\/www.riskanaliz.com.tr\/wp-content\/uploads\/2025\/04\/adult-1851571-2-1.jpg",
-                "https:\/\/www.riskanaliz.com.tr\/wp-content\/uploads\/2025\/04\/risk.jpg",
-                "https:\/\/www.riskanaliz.com.tr\/wp-content\/uploads\/2018\/08\/man-3230661_1920-1.jpg"
-            ],
-            "duration": "5000",
-            "transitionDuration": "1000",
-            "animateFirst": ""
         };
         /* ]]> */
     </script>
