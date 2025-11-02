@@ -17,25 +17,28 @@
                                   <h4 class="widgettitle">MENU</h4>
                                   <div class="menu-primary-container">
                                       <ul id="menu-primary" class="menu">
-                                          <li id="menu-item-53"
-                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-53">
-                                              <a href="/">Anasayfa</a>
-                                          </li>
-                                          <li id="menu-item-145"
-                                              class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item menu-item-145">
-                                              <a href="{{ route('dealer.get') }}" aria-current="page">Bireysel
-                                                  Başvuru</a>
-                                          </li>
-                                          <li id="menu-item-148"
+                                            <li id="menu-item-53"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-53">
+                                                <a href="/">Anasayfa</a>
+                                            </li>
+                                            <li id="menu-item-145"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-135 current_page_item menu-item-145">
+                                                <a href="{{ route('credit.personal.get') }}" aria-current="page">Kredi Risk Analizi
+                                                    Başvuru</a>
+                                            </li>
+                                            <li id="menu-item-148"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148">
+                                                <a href="{{ route('risk.get') }}">Risk Değerlendirme</a>
+                                            </li>
+                                            <li id="menu-item-148"
                                               class="menu-item menu-item-type-post_type menu-item-object-page menu-item-148">
-                                              <a href="{{ route('corporate.get') }}">Kurumsal
-                                                  Başvuru</a>
-                                          </li>
-                                          <li id="menu-item-154"
-                                              class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154">
-                                              <a href="/">Risk
-                                                  Değerlendirme Sözleşmesi</a>
-                                          </li>
+                                              <a href="{{ route('check.get') }}">Çek Analizi</a>
+                                            </li>
+                                            <li id="menu-item-154"
+                                                class="menu-item menu-item-type-post_type menu-item-object-page menu-item-154">
+                                                <a href="/">Risk
+                                                    Değerlendirme Sözleşmesi</a>
+                                            </li>
                                       </ul>
                                   </div>
                               </div>

@@ -1162,9 +1162,12 @@
                                 <p class="header-subtitle">"Risk Analizi: Güvenli Yarınların Anahtarı."</p>
                                 <div data-dynamic-mod-container class="header-buttons-wrapper"><a
                                         class="button big color1 square" target="_self"
-                                        href="{{ route('dealer.get') }}">BİREYSEL BAŞVURU</a><a
+                                        href="{{ route('credit.personal.get') }}">KREDİ RİSK ANALİZİ</a><a
                                         class="button big color-white square outline" target="_self"
-                                        href="{{ route('corporate.get') }}">KURUMSAL BAŞVURU</a></div>
+                                        href="{{ route('risk.get') }}">RİSK DEĞERLENDİRME</a>
+                                    <a
+                                        class="button big color-white square outline" target="_self"
+                                        href="{{ route('check.get') }}">ÇEK ANALİZİ</a></div>
                             </div>
                         </div>
                     </div>
